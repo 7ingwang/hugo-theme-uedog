@@ -1,0 +1,18 @@
+name = "UeDog"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+description = "UeDog is clean and modern Hugo blog theme focused on high speed and support muliple authors. Bookworm fits perfectly any kind of blog specially personal, photography, travel or biography blogs. Bookworm is fully responsive, Super fast and powered by Bootstrap."
+homepage = "https://uedog.com/"
+tags = ['blog', 'light', 'bootstrap', 'responsive', 'contact-form']
+features = ['responsive']
+min_version = "0.80.0"
+
+[author]
+  name = "Terry"
+  homepage = "https://terry.wang/"
+
+# If porting an existing theme
+[original]
+  name = "gethugothemes"
+  homepage = "https://gethugothemes.com/"
+  repo = "https://github.com/gethugothemes/bookworm-light/"
