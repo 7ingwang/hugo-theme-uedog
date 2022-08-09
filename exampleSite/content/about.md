@@ -1,48 +1,11 @@
 ---
-title: "About"
-layout: "about"
-image: "images/about.jpg"
-draft: false
-
-#caption
-caption:
-  enable: true
-  title: "I’m Henara Colii, A content writer based in LDN, currently at Bookworm."
-
-# social
-social:
-  enable: true
-  social_links:
-  - link: "https://www.facebook.com/"
-    icon: "lab la-facebook-f"
-
-  - link: "https://www.twitter.com/"
-    icon: "lab la-twitter"
-    
-  - link: "https://www.linkedin.com/"
-    icon: "lab la-linkedin-in"
-    
-  - link: "https://www.github.com/"
-    icon: "lab la-github"
-
-# what_i_do
-what_i_do:
-  title: "What I Do"
-  enable: true
-  item:
-  - title: "Content Writing"
-    icon: "las la-pen-nib"
-    description: "Purus eget ipsum elementum venenatis, quis rutrum mi semper nonpurus eget ipsum elementum venenatis."
-    
-  - title: "Photography"
-    icon: "las la-camera"
-    description: "Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis."
-    
-  - title: "Web Research"
-    icon: "lar la-snowflake"
-    description: "Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis."
- 
+title: About
 ---
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget.
 
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
+Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui.
+
+Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.

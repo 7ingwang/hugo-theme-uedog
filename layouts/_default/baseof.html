@@ -1,16 +1,26 @@
-<!DOCTYPE html>
-<html lang="{{ site.LanguageCode | default `en-US` }}">
-{{ partial "head.html" . }}
+<html>
 
-<body>
-  {{ partialCached "preloader.html" . }}
-  {{ partial "header.html" . }}
-  {{if and (not .IsHome) (ne .Section "blog") (ne .Permalink (`about/` | absURL)) (ne .Permalink (`search/` | absURL)) }}
-  {{ partial "page-header.html" . }}
-  {{end}}
-  {{ block "main" . }}{{ end }}
-  {{ partialCached "footer.html" . }}
-  {{ partialCached "script.html" . }}
+{{ partial "head/head.html" . }}
+
+<body class="line-numbers">
+
+    {{ $script := resources.Get "js/initColors.js" }}
+    <script src="{{ $script.RelPermalink }}"></script>
+
+    <div class="layout-styled">
+
+        {{ partial "header.html" . }}
+
+        {{ block "main" . }}
+        
+        {{ end }}
+        
+        {{ partial "footer.html" . }}
+
+    </div>
+
+    {{ $script := resources.Get "js/prism.js" }}
+    <script src="{{ $script.RelPermalink }}"></script>
 </body>
 
 </html>
